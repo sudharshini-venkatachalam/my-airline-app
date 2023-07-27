@@ -1,0 +1,20 @@
+
+<div class="container">
+  <br>
+  <br>
+  <a style="cursor:pointer;" 
+
+
+class="list-group-item clearfix" *ngFor="let flight of flights"
+>
+    <div class="float-left">
+        <h4 class="list-group-item-heading" style="color:black;">{{flight.name}}</h4>
+        <p class="list-group-item-text" style="color:black;">{{flight.location}}</p>
+    </div>
+    <span class="float-right">
+       <img [src]="flight.imagePath" alt="{{flight.name}}" class="img-responsive" style="border:20px;" >
+       
+    </span>
+</a>
+ </div>
+

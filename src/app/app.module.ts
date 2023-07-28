@@ -12,6 +12,8 @@ import { PassengerComponent } from './shared/passenger/passenger.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCheckboxModule, MatButtonModule, MatFormFieldModule, MatInputModule, MatDatepickerModule, MatRadioModule, MatSelectModule, MatDividerModule, MatDialogModule, MatAutocompleteModule, MatChipsModule, MatExpansionModule, MatNativeDateModule, MatRippleModule, MatSlideToggleModule, MatTableModule, MatTabsModule, MatToolbarModule, MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PassengerListComponent } from './shared/passenger/passenger-list/passenger-list.component';
+import { PassengerEditComponent } from './shared/passenger/passenger-edit/passenger-edit.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FlightDetailComponent,
     CheckInComponent,
     InFlightComponent,
-    PassengerComponent
+    PassengerComponent,
+    PassengerListComponent,
+    PassengerEditComponent
    
   ],
   imports: [

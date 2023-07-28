@@ -4,7 +4,7 @@ export class Passenger {
     address: string;
     passport: string;
     birthdate: string;
-    seatNumber: number;
+    seatNumber: string;
     checkedIn: boolean;
     specialMeal: boolean;
     infants: boolean;
@@ -17,7 +17,7 @@ export class Passenger {
         address: string,
         passport: string,
         birthdate: string,
-        seatNumber: number,
+        seatNumber: string,
         checkedIn: boolean,
         specialMeal: boolean,
         infants: boolean,
